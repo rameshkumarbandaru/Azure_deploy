@@ -3,11 +3,11 @@
 
 name: Build and deploy WAR app to Azure Web App - MySuperJavaApp
 
-on:
-  push:
-    branches:
-      - main
-  workflow_dispatch:
+#on:
+ # push:
+   # branches:
+   #   - main
+  #workflow_dispatch:
 
 jobs:
   build:
